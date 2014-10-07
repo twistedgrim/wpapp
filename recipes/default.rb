@@ -5,3 +5,6 @@
 #
 # Copyright 2014, YOUR_COMPANY_NAME
 #
+include_recipe 'platformstack::default'
+include_recipe 'rackops_rolebook::default'
+
