@@ -1,5 +1,5 @@
 node.default['apache']['sites']['example.com']['repository'] = 'https://github.com/mattjbarlow/wordpress_skeleton.git'
-node.default['apache']['sites']['example.com'][revision'] =  'HEAD'
+node.default['apache']['sites']['example.com'][revision'] =  "HEAD"
 
 %w( phpstack::application_php
 ),each do |recipe|
