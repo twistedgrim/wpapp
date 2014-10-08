@@ -15,10 +15,10 @@ mysql_database_user 'phpuser' do
     :username => 'root',
     :password => node['mysql']['server_root_password']
   )
-  password      node['wordpress']['db_passwd']
+  password node['wordpress']['db_passwd']
   database_name 'wordpress'
-  privileges    [:select,:update,:insert,:drop]
-  action        :grant
+  privileges [:select, :update, :insert, :drop]
+  action :grant
 end
 
 db = File.join(Chef::Config[:file_cache_path], 'wordpress.sql')
