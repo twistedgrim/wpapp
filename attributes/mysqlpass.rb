@@ -1,1 +1,1 @@
-node ["wordpress"]["db_passwd"] = "g00dpa$$word"
+node.default['wordpress']['db_passwd'] = 'mywpdbpass'

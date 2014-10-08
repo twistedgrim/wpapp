@@ -5,7 +5,7 @@ maintainer_email 'none'
 license          ''
 description      'Installs/Configures wpapp'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.2'
+version          '0.1.4'
 depends  'apt'
 depends  'platformstack'
 depends  'rackops_rolebook'
